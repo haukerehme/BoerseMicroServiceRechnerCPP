@@ -7,9 +7,12 @@
 //============================================================================
 
 #include <iostream>
+#include "dao/EurUsdDao.h"
 using namespace std;
 
 int main() {
 	cout << "" << endl; // prints 
+	EurUsdDao& eurUsdDao = EurUsdDao::instance();
+	eurUsdDao.findAll();
 	return 0;
 }
