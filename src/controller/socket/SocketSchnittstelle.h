@@ -23,6 +23,7 @@ public:
 	~SocketSchnittstelle();
 
 	void run();
+	double recvLiveValue();
 
 private:
 	// verhindert, dass ein Objekt von außerhalb von N erzeugt wird.
